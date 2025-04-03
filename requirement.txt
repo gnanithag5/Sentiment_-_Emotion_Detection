@@ -1,0 +1,7 @@
+Flask==2.2.5
+requests==2.31.0
+gunicorn==21.2.0  # Required if deploying to platforms like Heroku
+numpy==1.26.4
+ibm-watson==6.0.0  # If using IBM Watson's NLP API
+ibm-cloud-sdk-core==3.19.0  # Needed for IBM Watson authentication
+python-dotenv==1.0.1  # NEW: Loads environment variables from a .env file
